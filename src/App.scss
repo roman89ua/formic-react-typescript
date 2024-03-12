@@ -1,0 +1,14 @@
+$error-colour: orangered;
+$error-background: pink;
+
+.error {
+  color: $error-colour;
+}
+
+.error-label {
+  color: $error-colour;
+  input {
+    border-color: $error-colour;
+    background-color: $error-background;
+  }
+}
